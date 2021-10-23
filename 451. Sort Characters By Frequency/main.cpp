@@ -57,5 +57,8 @@ int main() {
 
   cout << oss.str() << endl;
 
+  // release the dynamic array 
+  delete [] unitPtr;
+
   return 0;
 }
